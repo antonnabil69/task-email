@@ -1,0 +1,70 @@
+<!-- intro to Java Script -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap 6 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color: #f6f8ff;">
+
+
+    <div class="container pt-5">
+        <div class="row">
+
+            <div class="md:col-6">
+
+                <img src="img/hd_wallpaper_16077.jpg" class="w-75">
+
+            </div>
+
+            <div class="md:col-6">
+
+                <h2>Create Account</h2>
+
+                <h4 class="mt-4 mb-7 fg-secondary">Go ahead and sign up, let evreyone<br>know how awesome you are!</h4>
+
+
+                <h5 id="result"></h5>
+
+                <form onsubmit="return validateData()" action="success.html" method="post">
+
+                    <input id="username" type="text" name="user" placeholder="User Name"
+                        class="form-control p-4 mb-7 rounded-2">
+
+                    <input id="email" type="text" name="email" placeholder="Email"
+                        class="form-control p-4 mb-7 rounded-2 ">
+
+                    <input id="password" type="password" name="pass" placeholder="Password"
+                        class="form-control p-4 mb-7 rounded-2 ">
+
+                    <input id="confirmPassword" type="password" name="confirm" placeholder="Confirm Password"
+                        class="form-control p-4 mb-7 rounded-2 ">
+
+                    <input type="submit" value="Create New Account" class="btn-solid theme-primary d-block w-100">
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- bootstrap 6 -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- js file  -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
